@@ -8,8 +8,8 @@ void tam_giac_vuong_ben_phai() {
     cout << "Nhập độ lớn hình tam giác vuông bên phải: ";
     do {
         cin >> size;
-        if (size >= 100000 and size <= 0) cout << "Nhập lại vì số quá lớn hoặc quá nhỏ!" << endl << "Nhập độ lớn hình tam giác vuông:";
-    } while (size >= 100000 and size <= 0);
+        if (size >= 100000 or size <= 0) cout << "Nhập lại vì số quá lớn hoặc quá nhỏ!" << endl << "Nhập độ lớn hình tam giác vuông:";
+    } while (size >= 100000 or size <= 0);
 
     for (int i = 0; i < size; i++) space += " ";
 
@@ -26,8 +26,8 @@ void tam_giac_vuong_ben_trai() {
     cout << "Nhập độ lớn hình tam giác vuông bên trái: ";
     do {
         cin >> size;
-        if (size >= 100000 and size <= 0) cout << "Nhập lại vì số quá lớn hoặc quá nhỏ!" << endl << "Nhập độ lớn hình tam giác vuông:";
-    } while (size >= 100000 and size <= 0);
+        if (size >= 100000 or size <= 0) cout << "Nhập lại vì số quá lớn hoặc quá nhỏ!" << endl << "Nhập độ lớn hình tam giác vuông:";
+    } while (size >= 100000 or size <= 0);
 
     for (int i = 1; i < size; i++) {
         str += "*";
@@ -42,8 +42,8 @@ void tam_giac_can() {
     cout << "Nhập độ lớn hình tam giác: ";
     do {
         cin >> size;
-        if (size >= 100000 and size <= 0) cout << "Nhập lại vì số quá lớn hoặc quá nhỏ!" << endl << "Nhập độ lớn hình tam giác vuông:";
-    } while (size >= 100000 and size <= 0);
+        if (size >= 100000 or size <= 0) cout << "Nhập lại vì số quá lớn hoặc quá nhỏ!" << endl << "Nhập độ lớn hình tam giác vuông:";
+    } while (size >= 100000 or size <= 0);
 
     for (int i = 0; i < size; i++) space += " ";
 
