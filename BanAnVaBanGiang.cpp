@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
+#include <math.h>
 
 using namespace std;
-/*
+
 // 5 5 4 2 4 3
 int main() {
     freopen("DAUVAO.INP", "r", stdin);
@@ -20,21 +21,8 @@ int main() {
 
     /*for(int ad: dayso) {
         cout << ad << " ";
-    }
+    }*/
     cout << sonho;
 
     return 0;
-}
-*/
-
-int sum(int a){
-    int s = 0;
-    for(; a; a /= 10) s += a % 10;
-    return s;
-}
-
-int main(){
-    long long a;
-    cin >> a;
-    cout << sum(a);
 }
